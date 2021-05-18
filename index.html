@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Elevation of long-distance trials in Swabonia, Germany</title>
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--link to google fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Chango' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet'>
+
+	  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+	  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+	<!--link to plugins-->
+	<link rel="stylesheet" href="./Plugins/Leaflet-MiniMap-master/src/Control.MiniMap.css" />
+	<script src="./Plugins/Leaflet-MiniMap-master/src/Control.MiniMap.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./Plugins/L.Control.Credits-master/dist/leaflet-control-credits.js"></script>
+	<link rel="stylesheet" href="/Plugins/L.Control.Credits-master/dist/leaflet-control-credits.css" />		
+    <!--link to own stylesheet-->
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+
+		<div id="map"></div>
+
+
+    <!--link to the files that contain geojson data-->
+	<script src="DATA/Fernwanderwege_Swabonia_points.js" type="text/javascript"> </script>
+    <script src="DATA/Swabonia_border.js" type="text/javascript"> </script>
+	<script src="DATA/Germany_border.js" type="text/javascript"> </script>
+	<script src="DATA/Castles.js" type="text/javascript"> </script>
+	<script src="DATA/Huts.js" type="text/javascript"> </script>
+    <script src="DATA/Fernwanderwege_Swabonia_paths.js" type="text/javascript"> </script>
+
+    <!-- link to main javascript file -->
+    <script src="script.js"></script>
+
+	</body>
+</html>
