@@ -95,7 +95,7 @@ var baseLayers = {
   };
 
   maptitle.update = function () {
-      this._div.innerHTML = '<h1>Long-distance Hiking Trails in Swabonia (Germany)</h1>';
+      this._div.innerHTML = '<h1>Long-distance Hiking Trails<br> Swabonia (Germany)</h1>';
   };
   maptitle.addTo(map);
 
