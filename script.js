@@ -308,7 +308,7 @@ var y = x.elevation;
  //credits
  var credctrl = L.controlCredits({
   image: "./DATA/icons/info.png",
-  link: "#",
+  link: "https://minha94.github.io/LeafletHikeMap/",
   text: "Web Cartography Project<br/>Minha Noor Sultan </br> Nelson Schäfer"
 }).addTo(map);
 
